@@ -1,0 +1,61 @@
+#include <stdio.h>
+
+
+
+
+
+
+
+int main()
+
+{
+
+ int per1=15;
+
+ int per2=20;
+
+ if(per1>per2)
+
+ {
+
+  printf("person 1 is height ");
+
+ }
+
+ else{
+
+  printf("person 2 is height");
+
+ }
+
+ return 0;
+
+}int main()
+
+{
+
+ // Write C code here
+
+ float accBal = 15000.00;
+
+ float WDAmt = 1200.00;
+
+ if(accBal>WDAmt)
+
+ {
+
+ printf("Withdraw Success");
+
+ }
+
+ else
+
+ {
+
+ printf("Insufficient Balance...");
+
+ }
+
+ return 0;
+
+}
