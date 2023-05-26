@@ -1,0 +1,17 @@
+    //
+     #include <stdio.h> 
+     int main() 
+    {
+      int p ;
+      printf("Enter the amount of p:");
+      scanf("%d",&p);
+      int n;
+      printf("Enter the number of year n:");
+      scanf("%d",&n);
+      int r;
+      printf("Enter the rate of interst r:");
+      scanf("%d",&r);
+      int interest=p*n*r/100;
+      printf("The interest is :%d",interest);
+    }
+      
