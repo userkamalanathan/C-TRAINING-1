@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("Enter the purchase of rupees in a:");
+    scanf("%d",&a);
+    if (a<1000)
+    {
+        printf("20%% Discount");
+        
+    }
+    else if (a>1000 && a<5000  )
+    {
+        printf("50%% Discount");
+        
+    }
+    else
+    {
+        printf("75%% Discount");
+    }
+    return 0;
+}
