@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int car;
+    printf("enter the car number");
+    scanf("%d",&car);
+    if (car==1)
+    {
+        printf("road no :243");
+        
+    }
+    else if ( car==2 )
+    {
+        printf("road number:136");
+        
+    }
+    else
+    {
+        printf(" road number: 567");
+    }
+    return 0;
+}
