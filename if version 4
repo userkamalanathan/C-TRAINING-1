@@ -1,0 +1,27 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main()
+{
+    float bal=1000.50;
+    float wd=800;
+    if(bal > wd)
+    {
+        if(wd % 100==0)
+        {
+            printf("wd success");
+            
+        }
+        else
+        {
+            printf("invalid denomination");
+        }
+        
+    }
+    else
+    {
+        printf("insufficient balance");
+    }
+}
+
+
